@@ -57,7 +57,6 @@ class Calculator extends React.Component {
     return (
       <div>
         <h1>{result}</h1>
-
         <input onChange={this.setNum1} value={num1}/>
         <input onChange={this.setNum2} value={num2}/>
         <button onClick={this.clear}>Clear</button>
